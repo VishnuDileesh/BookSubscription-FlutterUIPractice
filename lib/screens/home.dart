@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_svg/flutter_svg.dart';
+import 'category.dart';
 
 class HomeScreen extends StatelessWidget{
 	@override
@@ -7,7 +8,7 @@ class HomeScreen extends StatelessWidget{
 		return Material(
 				child: Container(
 					padding: EdgeInsets.all(24.0),
-					color: Color(0xfffe9eaf1),
+					color: Color(0xfffE8E8EE),
 					child: Column(
 							mainAxisAlignment: MainAxisAlignment.spaceEvenly,
 							crossAxisAlignment: CrossAxisAlignment.center,
@@ -16,7 +17,7 @@ class HomeScreen extends StatelessWidget{
 								Text(
 									"Discover thousands of books",
 									style: TextStyle(
-										color: Color(0xff111415),
+										color: Color(0xff2D3439),
 										fontSize: 35.0,
 										fontWeight: FontWeight.bold,
 									),
@@ -30,7 +31,7 @@ class HomeScreen extends StatelessWidget{
 								Text(
 									"Join our monthly subscription and enjoy a variety of features, which includes four daily recommandations based on your favorite book categories",
 									style: TextStyle(
-										color: Color(0xff6e7e89),
+										color: Color(0xff88ADB6),
 										fontSize: 17.0,
 									),
 								),
@@ -53,7 +54,7 @@ class HomeScreen extends StatelessWidget{
 											offset: Offset(0.0, 0.75),
 										),
 										],
-										color: Color(0xff0076be),
+										color: Color(0xff1480BC),
 										borderRadius: BorderRadius.circular(30.0),
 									),
 									child: Center(
@@ -72,6 +73,12 @@ class HomeScreen extends StatelessWidget{
 								
 								GestureDetector(
 								onTap: (){
+									Navigator.pushReplacement(
+										context,
+										MaterialPageRoute(
+											builder: (context) => ChooseCatScreen()
+										),
+									);
 									print("Decide later");
 								},
 								child: Center(
@@ -79,7 +86,7 @@ class HomeScreen extends StatelessWidget{
 										"I'll decide later",
 										style: TextStyle(
 											fontSize: 17.0,
-											color: Color(0xff6e7e89),
+											color: Color(0xff88ADB6),
 										),
 									),
 								),
