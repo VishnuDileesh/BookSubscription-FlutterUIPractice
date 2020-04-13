@@ -1,16 +1,24 @@
-# book_subscription_ui
+> What We Learn With Pleasure We Never Forget - Alfred Mercier
 
-A new Flutter project.
+## (Flutter UI Pracitce Projects) 
 
-## Getting Started
+> For practice projects, i pick random UI designs by UI/UX designers from Instagram, i try my level best to recreate the UI design in Dart & Flutter. The repo contains all the code and assets used.
 
-This project is a starting point for a Flutter application.
 
-A few resources to get you started if this is your first Flutter project:
+## [Book Subscription UI](https://www.instagram.com/p/B9Rp2UwAu9B/) UI is designed by : [Luis Escoto](https://www.instagram.com/designby_luis/)
 
-- [Lab: Write your first Flutter app](https://flutter.dev/docs/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://flutter.dev/docs/cookbook)
+## Assets Usage Credit
 
-For help getting started with Flutter, view our
-[online documentation](https://flutter.dev/docs), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+[Freepik](https://www.flaticon.com/authors/freepik)
+
+[flat-icons](https://www.flaticon.com/authors/flat-icons)
+
+## App UI Screenshot
+
+![Book Subscription App Home Page screenshot](screenshots/app_scr1.png) ![Book Subscription App Home Page screenshot](screenshots/app_scr2.png)
+
+## WIP Screenshot
+
+![wip screenshot](screenshots/wip_scr_1.png) 
+
+![wip screenshot](screenshots/wip_scr_2.png)
